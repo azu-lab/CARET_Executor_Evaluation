@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>caret_trace</name>
+  <version>0.2.1</version>
+  <description>Library to add tracepoints for CARET</description>
+  <maintainer email="hasegawa@isp.co.jp">hasegawa</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>rmw</depend>
+  <depend>rcl</depend>
+  <depend>rmw_implementation</depend>
+  <depend>rmw_fastrtps_shared_cpp</depend>
+  <depend>rcpputils</depend>
+  <depend>rcutils</depend>
+  <depend>std_msgs</depend>
+
+  <depend>cyclonedds</depend>
+  <depend>fastrtps</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
